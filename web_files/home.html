@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Viz Information</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row my-row">
+            <div class="col-12 my-col">
+                <span>
+                    <h2>Keyphrase extraction of New York Times news articles</h2>
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+                <div>
+                    <p>Select your subject to check the results</p>
+                    <div class="box">
+                        <select id="var-select">
+                            <option selected value="Science">Science</option>
+                            <option value="World">World</option>
+                            <option value="Technology">Technology</option>
+                            <option value="Health">Health</option>
+                            <option value="Business">Business</option>
+                            <option value="Sports">Sports</option>
+                            <option value="US">US</option>
+                            <option value="Arts">Arts</option>
+                            <option value="Travel">Travel</option>
+                            <option value="Style">Style</option>
+
+                        </select>
+                        <button id="btn">Go!</button>   
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-2">
+                
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <div id="my_dataviz"></div>
+            </div>
+            <div class="col-lg-2 col-md-2">
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
